@@ -1,0 +1,93 @@
+/* Custom styles for SimpleBlog application */
+
+/* General styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Post content styling */
+.post-content {
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+/* Comment styling */
+.comment-card {
+    transition: background-color 0.3s ease;
+}
+
+.comment-card:hover {
+    background-color: var(--bs-secondary-bg);
+}
+
+/* Dashboard table styling */
+.table tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: var(--bs-secondary-bg);
+}
+
+/* Notification container */
+#notification-container {
+    z-index: 1050;
+}
+
+/* Form validation styling */
+.invalid-feedback {
+    font-size: 85%;
+}
+
+/* Add space at the bottom of the page to avoid footer overlap */
+body {
+    margin-bottom: 60px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Add styles for error pages */
+.error-container {
+    padding: 3rem 0;
+}
+
+/* Add responsiveness to images in post content */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Enhance pagination styling */
+.pagination {
+    margin-top: 2rem;
+}
+
+/* Button spacing in forms */
+form .btn {
+    margin-top: 0.5rem;
+}
+
+/* Card header styling */
+.card-header {
+    background-color: var(--bs-tertiary-bg);
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+/* Flash message styling */
+.alert {
+    margin-bottom: 1rem;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-weight: bold;
+}

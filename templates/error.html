@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Error {{ error_code }} - SimpleBlog{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3 text-center">
+        <div class="error-container my-5">
+            <h1 class="display-1 fw-bold">{{ error_code }}</h1>
+            <h2 class="mb-4">{{ message }}</h2>
+            <p class="lead">We're sorry, something went wrong.</p>
+            <a href="{{ url_for('index') }}" class="btn btn-primary mt-3">
+                <i class="fas fa-home"></i> Go to Homepage
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
