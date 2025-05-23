@@ -94,10 +94,6 @@ csu-ccis-blog/
     └── USAGE_GUIDE.md
 ```
 
-## Development Team
-- **Framework**: Individual/Team Project
-- **Timeline**: 21 calendar days
-- **Institution**: Colorado State University, College of Computing and Information Sciences
 
 ## License
-Educational use for CSU CCIS coursework.
+Educational use for CSU CCIS coursework.# CSU_CCIS_Blog
