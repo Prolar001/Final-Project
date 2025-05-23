@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="120" height="90">
+  <!-- Sun rays -->
+  <g transform="translate(200,120)">
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(0)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(30)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(60)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(90)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(120)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(150)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(180)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(210)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(240)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(270)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(300)"/>
+    <path d="M0,-50 L8,-35 L-8,-35 Z" fill="#F4C430" transform="rotate(330)"/>
+  </g>
+  
+  <!-- Plant stem and leaves -->
+  <rect x="195" y="120" width="10" height="40" fill="#228B22"/>
+  <path d="M170,135 Q185,125 200,135 Q215,125 230,135 Q215,145 200,135 Q185,145 170,135" fill="#228B22"/>
+  <path d="M175,145 Q190,135 205,145 Q220,135 235,145 Q220,155 205,145 Q190,155 175,145" fill="#228B22"/>
+  
+  <!-- Shield base -->
+  <path d="M160,160 L240,160 L240,200 Q200,220 160,200 Z" fill="#8B4513"/>
+  
+  <!-- Circuit pattern -->
+  <g stroke="#F4C430" stroke-width="2" fill="none">
+    <circle cx="180" cy="175" r="3"/>
+    <circle cx="220" cy="175" r="3"/>
+    <circle cx="200" cy="190" r="3"/>
+    <line x1="180" y1="175" x2="200" y2="190"/>
+    <line x1="220" y1="175" x2="200" y2="190"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8B4513">CSU CCIS</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8B4513">COLLEGE OF COMPUTING</text>
+  <text x="200" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8B4513">AND INFORMATION SCIENCES</text>
+</svg>

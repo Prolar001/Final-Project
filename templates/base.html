@@ -18,9 +18,12 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <nav class="navbar navbar-expand-lg navbar-csu mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ url_for('index') }}">SimpleBlog</a>
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/csu-ccis-logo.svg') }}" alt="CSU CCIS Logo">
+                <span>CSU CCIS Blog</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,9 +82,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-light text-dark mt-5 py-4 border-top">
+    <footer class="footer-csu mt-5 py-4">
         <div class="container text-center">
-            <p>&copy; 2025 SimpleBlog | A simple blog application</p>
+            <p>&copy; 2025 CSU CCIS Blog | College of Computing and Information Sciences</p>
         </div>
     </footer>
 

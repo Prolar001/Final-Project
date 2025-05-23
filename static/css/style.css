@@ -1,10 +1,20 @@
-/* Custom styles for SimpleBlog application */
+/* Custom styles for CSU CCIS Blog application */
+
+/* CSU CCIS Color Palette */
+:root {
+    --csu-gold: #F4C430;
+    --csu-green: #228B22;
+    --csu-brown: #8B4513;
+    --csu-dark-brown: #654321;
+    --csu-light-gold: #FFF8DC;
+}
 
 /* General styling */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
 }
 
 main {
@@ -87,7 +97,96 @@ form .btn {
     margin-bottom: 1rem;
 }
 
-/* Navbar brand styling */
+/* CSU CCIS Navbar styling */
 .navbar-brand {
     font-weight: bold;
+    color: var(--csu-brown) !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-csu {
+    background: linear-gradient(135deg, var(--csu-light-gold) 0%, #ffffff 100%);
+    border-bottom: 3px solid var(--csu-gold);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-csu .nav-link {
+    color: var(--csu-brown) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-csu .nav-link:hover {
+    color: var(--csu-green) !important;
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: var(--csu-gold);
+    border-color: var(--csu-gold);
+    color: var(--csu-brown);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--csu-green);
+    border-color: var(--csu-green);
+    color: white;
+}
+
+/* Success button styling */
+.btn-success {
+    background-color: var(--csu-green);
+    border-color: var(--csu-green);
+}
+
+.btn-success:hover {
+    background-color: var(--csu-dark-brown);
+    border-color: var(--csu-dark-brown);
+}
+
+/* Warning button styling */
+.btn-warning {
+    background-color: var(--csu-gold);
+    border-color: var(--csu-gold);
+    color: var(--csu-brown);
+}
+
+.btn-warning:hover {
+    background-color: var(--csu-brown);
+    border-color: var(--csu-brown);
+    color: white;
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    background: linear-gradient(135deg, var(--csu-light-gold) 0%, #f8f9fa 100%);
+    border-bottom: 2px solid var(--csu-gold);
+    color: var(--csu-brown);
+    font-weight: 600;
+}
+
+/* Footer styling */
+.footer-csu {
+    background: linear-gradient(135deg, var(--csu-light-gold) 0%, #ffffff 100%);
+    border-top: 3px solid var(--csu-gold);
+    color: var(--csu-brown);
 }
